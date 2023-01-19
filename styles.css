@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Erbaum;
+    src: url(assets/erbaum.otf);
+}
+@font-face {
+    font-family: Erbaum2;
+    src: url(assets/erbaum2.otf);
+}
+html{
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body{
+    background-color:rgb(15, 15, 15);
+}
+.header ul li {
+    vertical-align: top;
+    width: 33%;
+    display:inline-block;
+}
+li:hover {
+    transform: scale(1.02);
+    background-color: rgba(141, 158, 172, 0.4);
+}
+li{
+    transition: transform .06s;
+    color: white;
+    font-size: 105%;
+    font-family: Erbaum;
+}
+.text1{
+    position:absolute;
+    top: 28%;
+    right: 1%;
+    font-family: Erbaum;
+    font-size: 20px;
+}
+.text2{
+    position:absolute;
+    top: 28%;
+    right: 10%;
+    font-family: Erbaum;
+    font-size: 20px;
+}
+.logo:hover{
+    transform: scale(1.05);
+}
+.background{
+    position: absolute;
+    top: 0;
+    z-index:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    object-fit: cover;
+}
+.pattern{
+    position: absolute;
+    top: 0;
+    z-index:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.logos_bottom{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+.logo{
+    float: left;
+    height: 50px;
+    width: 50px;
+    transition: transform .06s;
+}
+.header {
+    background-color: rgba(77, 109, 135, 0.61);
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    color: white;
+}
+.logo_header:hover{
+    transform: scale(1.02);
+}
+.logo_header{
+    transition: transform .06s;
+    height: 150px;
+    width: 150px;
+}
+.animalbutton:hover{
+    background-color: rgb(15, 16, 22, 0.61);
+    transform: scale(1.05);
+}
+.h1_1{
+    margin-top: 8%;
+    text-align: center;
+    color: white;
+    font-family: Erbaum2;
+}
+.h1_2{
+    font-size: larger;
+    text-align: center;
+    color: white;
+    font-family: Erbaum;
+}
+.animalbutton{
+    float: left;
+    background-color: rgb(30, 32, 44, 0.61);
+    transition: transform .06s;
+    height: 150px;
+    width: 150px;
+}
