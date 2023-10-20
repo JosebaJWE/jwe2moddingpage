@@ -90,7 +90,7 @@ li{
 .logo_header{
     transition: transform .06s;
     height: 150px;
-    width: 150px;
+    width: 170px;
 }
 .animalbutton:hover{
     background-color: rgba(3,35,83,0.8);
