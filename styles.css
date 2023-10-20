@@ -14,10 +14,9 @@ html{
 body{
     background-color:rgb(15, 15, 15);
 }
-.header ul li {
-    vertical-align: top;
-    width: 33%;
-    display:inline-block;
+.header ul {
+    display: inline-block;
+    text-align: left;
 }
 li:hover {
     transform: scale(1.02);
