@@ -111,7 +111,7 @@ li{
 .animalbutton{
     float: left;
     background-color: rgba(2,24,56,0.8);
-    border-bottom: 2px solid rgba(0,181,211,.4);    padding: 20px;
+    border-right: 2px solid rgba(0,181,211,.4);    padding: 20px;
     transition: transform .06s;
     height: 150px;
     width: 150px;
