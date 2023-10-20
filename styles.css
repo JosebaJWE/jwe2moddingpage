@@ -93,7 +93,7 @@ li{
     width: 150px;
 }
 .animalbutton:hover{
-    background-color: rgb(15, 16, 22, 0.61);
+    background-color: rgba(3,35,83,0.8);
     transform: scale(1.05);
 }
 .h1_1{
@@ -110,7 +110,8 @@ li{
 }
 .animalbutton{
     float: left;
-    background-color: rgb(30, 32, 44, 0.61);
+    background-color: rgba(2,24,56,0.8);
+    border-bottom: 2px solid rgba(0,181,211,.4);    padding: 20px;
     transition: transform .06s;
     height: 150px;
     width: 150px;
