@@ -19,6 +19,9 @@ body{
     width: 33%;
     display:inline-block;
 }
+.header ul {
+    margin-left: -2rem;
+}
 li:hover {
     transform: scale(1.02);
     background-color: rgba(141, 158, 172, 0.4);
